@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{581B880A-AAEA-4552-B8BF-6A74AC02EA58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Penunjang.My.MyApplication</StartupObject>
+    <RootNamespace>Penunjang</RootNamespace>
+    <AssemblyName>Penunjang</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\simrs_02\New folder\kelengkapan Pengembangan\_NEW SIMRS 2019\APPS\Publish\APP Penunjang\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\simrs_02\New folder\kelengkapan Pengembangan\_NEW SIMRS 2019\APPS\Publish\APP Penunjang\</InstallUrl>
+    <UpdateUrl>\\simrs_02\New folder\kelengkapan Pengembangan\_NEW SIMRS 2019\APPS\Publish\APP Penunjang\</UpdateUrl>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Penunjang.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Penunjang.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8686D54BE64A93F4F6934F4EDC1ADE5A929F777A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>microscope.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\IkaPerawatHitz\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.35, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Google.Protobuf, Version=3.5.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.15\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.25.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.25\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BridgingLis.Designer.vb">
+      <DependentUpon>BridgingLis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BridgingLis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CetakBukti.Designer.vb">
+      <DependentUpon>CetakBukti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CetakBukti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CetakHasilLab.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CetakHasilLab.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CetakHasilLab.vb">
+      <DependentUpon>CetakHasilLab.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JenisPasien.Designer.vb">
+      <DependentUpon>JenisPasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JenisPasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIS.vb">
+      <DependentUpon>LIS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RekapPemeriksaan.Designer.vb">
+      <DependentUpon>RekapPemeriksaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RekapPemeriksaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tambah Pasien.Designer.vb">
+      <DependentUpon>Tambah Pasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tambah Pasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TambahPasienLuar.Designer.vb">
+      <DependentUpon>TambahPasienLuar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TambahPasienLuar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCetakLIS.Designer.vb">
+      <DependentUpon>ViewCetakLIS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCetakLIS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DaftarPermintaan.Designer.vb">
+      <DependentUpon>DaftarPermintaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DaftarPermintaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasil.Designer.vb">
+      <DependentUpon>Hasil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hasil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HasilLIS.Designer.vb">
+      <DependentUpon>HasilLIS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HasilLIS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Koneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegPasienLuar.Designer.vb">
+      <DependentUpon>RegPasienLuar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegPasienLuar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RiwayatPasien.Designer.vb">
+      <DependentUpon>RiwayatPasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RiwayatPasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tindakan.Designer.vb">
+      <DependentUpon>Tindakan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tindakan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCetakHasilRajal.Designer.vb">
+      <DependentUpon>ViewCetakHasilRajal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCetakHasilRajal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCetakHasilRanap.Designer.vb">
+      <DependentUpon>ViewCetakHasilRanap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCetakHasilRanap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BridgingLis.resx">
+      <DependentUpon>BridgingLis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buktiPemeriksaan.rdlc" />
+    <EmbeddedResource Include="CetakBukti.resx">
+      <DependentUpon>CetakBukti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cetakHasilLabRajal.rdlc" />
+    <EmbeddedResource Include="cetakHasilLabRanap.rdlc" />
+    <EmbeddedResource Include="cetakHasilLis.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DaftarPermintaan.resx">
+      <DependentUpon>DaftarPermintaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasil.resx">
+      <DependentUpon>Hasil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HasilLIS.resx">
+      <DependentUpon>HasilLIS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JenisPasien.resx">
+      <DependentUpon>JenisPasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegPasienLuar.resx">
+      <DependentUpon>RegPasienLuar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RekapPemeriksaan.rdlc" />
+    <EmbeddedResource Include="RekapPemeriksaan.resx">
+      <DependentUpon>RekapPemeriksaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiwayatPasien.resx">
+      <DependentUpon>RiwayatPasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tambah Pasien.resx">
+      <DependentUpon>Tambah Pasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TambahPasienLuar.resx">
+      <DependentUpon>TambahPasienLuar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tindakan.resx">
+      <DependentUpon>Tindakan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCetakHasilRajal.resx">
+      <DependentUpon>ViewCetakHasilRajal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCetakHasilRanap.resx">
+      <DependentUpon>ViewCetakHasilRanap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCetakLIS.resx">
+      <DependentUpon>ViewCetakLIS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CetakHasilLab.xsc">
+      <DependentUpon>CetakHasilLab.xsd</DependentUpon>
+    </None>
+    <None Include="CetakHasilLab.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CetakHasilLab.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="CetakHasilLab.xss">
+      <DependentUpon>CetakHasilLab.xsd</DependentUpon>
+    </None>
+    <None Include="LIS.xsc">
+      <DependentUpon>LIS.xsd</DependentUpon>
+    </None>
+    <None Include="LIS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="LIS.xss">
+      <DependentUpon>LIS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Penunjang_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popup_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_blue.png" />
+    <None Include="Resources\btn_bluev2.png" />
+    <None Include="Resources\ic_pasw.png" />
+    <None Include="Resources\ic_user.png" />
+    <None Include="Resources\logo rskh.PNG" />
+    <Content Include="microscope.ico" />
+    <None Include="Resources\refresh_24.png" />
+    <None Include="Resources\bin.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\magnifying-glass.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevComponents.DotNetBar2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

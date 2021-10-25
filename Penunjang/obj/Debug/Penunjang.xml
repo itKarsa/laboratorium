@@ -1,0 +1,206 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Penunjang
+</name>
+</assembly>
+<members>
+<member name="T:Penunjang.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.bin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.btn_blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.btn_bluev2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.ic_pasw">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.ic_user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.logo_rskh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.magnifying_glass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.popup_info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Penunjang.My.Resources.Resources.refresh_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_cetakhasillabranapDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_cetakhasillabrajalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_datapasienlaboratoriumDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_pasienlaboratoriumdetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_cetakhasillabranapRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_cetakhasillabrajalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_datapasienlaboratoriumRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_pasienlaboratoriumdetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_cetakhasillabranapRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_cetakhasillabrajalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_datapasienlaboratoriumRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLab.vw_pasienlaboratoriumdetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.vw_cetakhasillabranapTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.vw_cetakhasillabrajalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.vw_datapasienlaboratoriumTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.vw_pasienlaboratoriumdetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.UpdateUpdatedRows(Penunjang.CetakHasilLab,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.UpdateInsertedRows(Penunjang.CetakHasilLab,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.UpdateDeletedRows(Penunjang.CetakHasilLab,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.UpdateAll(Penunjang.CetakHasilLab)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Penunjang.CetakHasilLabTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
