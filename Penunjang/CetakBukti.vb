@@ -16,7 +16,16 @@ Public Class CetakBukti
         Dim caraBayarParam As New ReportParameter("caraBayar", Form1.caraBayar)
         Dim kelasParam As New ReportParameter("kelas", Form1.txtKelas.Text)
         Dim jkParam As New ReportParameter("jk", Form1.txtJk.Text)
-
+        MsgBox(Form1.txtNoPermintaan.Text & "," &
+               Form1.txtNoRM.Text & "," &
+               Form1.txtNamaPasien.Text & "," &
+               Form1.txtTglLahir.Text & "," &
+               Form1.unit & "," &
+               Form1.txtDokter.Text & "," &
+               Form1.txtTglReg.Text & "," &
+               Form1.caraBayar & "," &
+               Form1.txtKelas.Text & "," &
+               Form1.txtJk.Text)
         ReportViewer1.LocalReport.SetParameters(noDaftarParam)
         ReportViewer1.LocalReport.SetParameters(noRmParam)
         ReportViewer1.LocalReport.SetParameters(namaParam)
